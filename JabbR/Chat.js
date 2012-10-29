@@ -910,7 +910,7 @@
         ui.initialize(state.preferences);
 
         ui.addMessage('Welcome to ' + originalTitle, 'notification');
-        ui.addMessage('Welcome  to FOO branch fUse ? or type /? to display the FAQ and list of commands', 'notification');
+        ui.addMessage('Welcome  to FOO branch fU34se ? or type /? to display the FAQ and list of commands', 'notification');
 
         function initConnection() {
             var logging = $.cookie('jabbr.logging') === '1',
